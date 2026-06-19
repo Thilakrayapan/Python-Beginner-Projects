@@ -1,10 +1,18 @@
 import random
-choice = ('r','p','s')
+
+# In python Captial letters are indicates that are constants
+ROCK = 'r'
+PAPER = 'p'
+SCISSORS = 's'
+
 choices = {
-    'r':'Rock',
-    'p':'Paper',
-    's':'Scissors'
+    ROCK:'Rock',
+    PAPER:'Paper',
+    SCISSORS:'Scissors'
 }
+
+choice = tuple(choices.keys())
+
 def get_user_choice():
     while True:
         user_choice = input("Enter rock paper scissors (r/p/s): ").lower()
@@ -20,9 +28,9 @@ def display_result(user_choice, computer_choice):
     if user_choice == computer_choice:
             print("Result: Tie")   
     elif (
-      (user_choice == 'r' and computer_choice == 's') or
-      (user_choice == 's' and computer_choice == 'p') or
-      (user_choice == 'p' and computer_choice == 'r')
+      (user_choice == ROCK and computer_choice == SCISSORS) or
+      (user_choice == SCISSORS and computer_choice == PAPER) or
+      (user_choice == PAPER and computer_choice == ROCK)
     ):
         print("Result: You Win")   
     else:
@@ -37,6 +45,7 @@ def play_game():
    
         should_continue = input("If you continue (y/n): ").lower()
         if should_continue == 'n':
+            print("'-' Thank You for Palying!")
             break
         
 play_game()
