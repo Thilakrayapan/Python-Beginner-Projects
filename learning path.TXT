@@ -1,0 +1,31 @@
+To learn Python and master the concepts covered in that course—such as core programming, automation, backend web development with Django, and machine learning—you do not have to buy a paid program.
+The exact curriculum from that 12-hour course can be fully mastered using high-quality, completely free resources.
+------------------------------
+## Phase 1: Python Basics & Object-Oriented Programming (OOP)
+Before jumping into advanced projects, you must master basic syntax, functions, data structures, and classes.
+
+* FreeCodeCamp (Python for Beginners Course): A comprehensive, 4-to-6 hour video course on YouTube that covers variables, loops, arrays, and basic OOP.
+* Official Python Tutorial (docs.python.org): The definitive, written text-based guide that provides a highly technical, deep-dive understanding of data structures and exceptions.
+* Corey Schafer’s Python OOP Series: A dedicated, free YouTube playlist widely regarded as the best source for mastering Python Classes, inheritance, and object-oriented principles.
+
+## Phase 2: Python Scripting, Files & Automation
+To learn how to process files (like Excel, CSV, or PDFs) and automate boring tasks, look into these resources:
+
+* "Automate the Boring Stuff with Python" by Al Sweigart: The entire text version of this world-famous book is available 100% free online at automatetheboringstuff.com. It teaches you text parsing, file organization, and web scraping.
+* Beautiful Soup & Selenium Documentation: Free web-scraping guides that show you exactly how to programmatically control browser behavior and gather web data.
+
+## Phase 3: Web Development with Django
+To build web applications like the grocery store project mentioned in your link, use these platforms:
+
+* The Official Django Girls Tutorial: An incredibly friendly, step-by-step written guide to building your very first web app from scratch, handling databases, and deploying it online.
+* Dennis Ivy (YouTube): Offers extensive, multi-hour free crash courses on building fully functional Django e-commerce websites, shopping carts, and admin dashboards.
+
+## Phase 4: Data Science & Machine Learning
+To learn how to build recommendation models and handle massive data matrices:
+
+* Kaggle Micro-Courses: Free, interactive, browser-based coding environments that teach you Python for Data Science, Pandas (data manipulation), and Introduction to Machine Learning in short, punchy steps.
+* "Machine Learning for Everybody" by freeCodeCamp: A free, 3-to-4 hour course on YouTube that explains the mathematical concepts and coding requirements behind predictive AI models.
+
+------------------------------
+
+
